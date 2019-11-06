@@ -33,7 +33,7 @@ p{
     font-size: 24px;
 display: inline-block;
 margin-top: 200px;
-margin-left: 500px;
+margin-left: 600px;
 list-style-type: none;
 
 }
@@ -58,9 +58,16 @@ nav{
     display: inline-block;
     font-size: 40px;
     margin: 10px 100px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 #hot{
     margin: 0 10px;
+    text-decoration: none;
+    color: white;
 }
 #juicy{
     margin: 0 10px;
@@ -97,7 +104,15 @@ h1{
 .choices{
     background-color: rgba(0, 0, 0, 0.425);
     color: white;
+
 }
-.space{
-    padding: 100px;
+.t1{
+    text-align: left;
+}
+.t2{
+    padding-left: 60px;
+    text-align: right;
+}
+html{
+    scroll-behavior: smooth;
 }
