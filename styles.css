@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1, ul{
+    font-family: 'Spirax', cursive;
+}
+p{
+    font-family: 'Poiret One', cursive;
+    background-color: rgba(255, 0, 0, 0.603);
+}
+body{
+    overflow: scroll;
+}
+nav{
+    position: fixed;
+    background-color: rgba(62, 46, 63, 0.342);
+    color: white;
+    width: 100%;
+
+
+}
+.menu{
+    width: 100%;
+    text-align: center;
+   
+}
+.menu li{
+    display: inline-block;
+    font-size: 50px;
+    margin: 10px 100px;
+}
+#hot{
+    margin: 0 10px;
+}
+#juicy{
+    margin: 0 10px;
+}
+#cosy{
+    margin:0 10px;
+}
+
+.hot{
+    background-image: url(img/hot.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+h1{
+    color: red;
+    position: ;
+    text-align: center;
+}
+.juicy{
+    background-image: url(img/juicy.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
+    height: 100vh;
+}
+.cosy{
+    background-image: url(img/cosy.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
