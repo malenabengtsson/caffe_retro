@@ -12,22 +12,29 @@ p{
     color: white;
 }
 #text1{
-    position: relative;
+    font-size: 20px;
+    position: absolute;
     display: inline-block;
-    margin-left: 40px;
+    margin-top: 5px;
+    margin-left: 300px;
     padding: 10px 30px;
 }
 #text2{
-    position: relative;
+    font-size: 20px;
+    position: absolute;
     display: inline-block;
-    margin-left: 300px;
-    margin-top: 20px;
+    margin-left: 600px;
+    margin-top: 60px;
     padding: 10px 30px;
 }
 .choices{
+    position: absolute;
     font-family: 'Poiret One', cursive;
     font-size: 24px;
 display: inline-block;
+margin-top: 200px;
+margin-left: 500px;
+list-style-type: none;
 
 }
 body{
@@ -90,4 +97,7 @@ h1{
 .choices{
     background-color: rgba(0, 0, 0, 0.425);
     color: white;
+}
+.space{
+    padding: 100px;
 }
